@@ -1,5 +1,5 @@
-const targetDate = new Date("1 Jan, 2026 00:00:00").getTime();
-const startDate = new Date("1 Jan, 2025 00:00:00").getTime();
+const targetDate = new Date("1 Jan, 2027 00:00:00").getTime();
+const startDate = new Date("1 Jan, 2026 00:00:00").getTime();
 console.log(targetDate-startDate)
 function updateTime(){
     const now = new Date().getTime();
