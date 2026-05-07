@@ -2,8 +2,8 @@ const temp = new Date();
 const currentYear = temp.getFullYear();
 console.log(currentYear);
 console.log(currentYear+1);
-const targetDate = new Date("1 Jan, {currentYear+1} 00:00:00").getTime();
-const startDate = new Date("1 Jan, {currentYear} 00:00:00").getTime();
+const targetDate = new Date("1 Jan, ${currentYear + 1} 00:00:00").getTime();
+const startDate = new Date("1 Jan, ${currentYear} 00:00:00").getTime();
 console.log(targetDate-startDate)
 function updateTime(){
     const now = new Date().getTime();
